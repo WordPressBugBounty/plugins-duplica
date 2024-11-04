@@ -18,6 +18,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 class AJAX extends Base {
 
 	public $plugin;
+	public $slug;
+	public $name;
+	public $version;
 
 	/**
 	 * Constructor function

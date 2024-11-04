@@ -1,11 +1,11 @@
 === Duplica - Duplicate Posts, Pages, Custom Posts or Users ===
 Contributors: codexpert, pluggable, mukto90
 Donate link: https://codexpert.io
-Tags: duplicate post, clone posts, convert post, duplicate post type, clone user, duplicate users
+Tags: clone, duplicate, duplicate posts, duplicate post types, duplicate users
 Requires at least: 5.0
 Requires PHP: 7.4
-Tested up to: 6.5.5
-Stable tag: 0.7
+Tested up to: 6.6
+Stable tag: 0.8
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -59,6 +59,9 @@ You can set this from the settings screen. It can be inherited from the original
 3. Settings screen
 
 == Changelog ==
+
+= 0.8 - 2024-11-04 =
+[fix] routine maintenance
 
 = 0.7 - 2024-07-16 =
 [imp] PHP and WordPress compatibility tested

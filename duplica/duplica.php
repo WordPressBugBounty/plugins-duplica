@@ -1,13 +1,17 @@
 <?php
 /**
- * Plugin Name: Duplica
- * Description: Duplicate Posts, Pages, Custom Posts or Users - everything with a single click.
- * Plugin URI: https://pluggable.io/plugin/duplica
- * Author: Codexpert, Inc
- * Author URI: https://codexpert.io
- * Version: 0.7
- * Text Domain: duplica
- * Domain Path: /languages
+ * Plugin Name:			Duplica
+ * Plugin URI:			https://pluggable.io/plugin/duplica
+ * Description:			Duplicate Posts, Pages, Custom Posts or Users - everything with a single click.
+ * Version:				0.8
+ * Requires at least:	5.0
+ * Requires PHP:		7.4
+ * Author:				Codexpert, Inc
+ * Author URI:			https://codexpert.io
+ * License:				GPL v2 or later
+ * License URI:			https://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain:			duplica
+ * Domain Path:			/languages
  *
  * Duplica is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -41,6 +45,8 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @author Codexpert <hi@codexpert.io>
  */
 final class Plugin {
+
+	public $plugin;
 	
 	/**
 	 * Plugin instance
