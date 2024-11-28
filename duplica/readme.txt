@@ -2,10 +2,10 @@
 Contributors: codexpert, pluggable, mukto90
 Donate link: https://codexpert.io
 Tags: clone, duplicate, duplicate posts, duplicate post types, duplicate users
-Requires at least: 5.0
-Requires PHP: 7.4
+Requires at least: 4.4
 Tested up to: 6.7
-Stable tag: 0.9
+Stable tag: 0.9.1
+Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -87,34 +87,37 @@ You can set this from the settings screen. It can be inherited from the original
 
 == Changelog ==
 
-= 0.9 — 2024-11-13 =
+= v0.9.1 — 2024-11-28 =
+- Compatibility tested with WordPress v6.7.1
+
+= v0.9 — 2024-11-13 =
 - Compatibility tested with WordPress v6.7
 
-= 0.8 — 2024-11-04 =
+= v0.8 — 2024-11-04 =
 - [fix] routine maintenance
 
-= 0.7 — 2024-07-16 =
+= v0.7 — 2024-07-16 =
 - [imp] PHP and WordPress compatibility tested
 - [fix] Security ensured with `create_users` and `edit_pages` capabilities
 
-= 0.6 — 2023-07-29 =
+= v0.6 — 2023-07-29 =
 - [imp] PHP and WordPress compatibility tested
 
-= 0.5 — 2023-07-29 =
+= v0.5 — 2023-07-29 =
 - [fix] Elementor compatibility issue fixed
 
-= 0.4 — 2023-06-18 =
+= v0.4 — 2023-06-18 =
 - [fix] Error fixed in the uninstaller
 
-= 0.3 — 2023-06-18 =
+= v0.3 — 2023-06-18 =
 - [imp] Code optimized
 - [imp] JS and CSS minified
 
-= 0.2 — 2022-04-04 =
+= v0.2 — 2022-04-04 =
 - [add] Option to clone users
 - [fix] Error fixed
 
-= 0.1 — 2022-03-24 =
+= v0.1 — 2022-03-24 =
 - Initial release
 
 == Upgrade Notice ==
