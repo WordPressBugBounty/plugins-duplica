@@ -3,9 +3,9 @@
  * Plugin Name:			Duplica
  * Plugin URI:			https://pluggable.io/plugin/duplica
  * Description:			Duplicate Posts, Pages, Custom Posts or Users - everything with a single click.
- * Version:				0.9.1
- * Requires at least:	4.4
- * Requires PHP:		7.0
+ * Version:				0.10
+ * Requires at least:	4.6
+ * Requires PHP:		7.4
  * Author:				Codexpert, Inc
  * Author URI:			https://codexpert.io
  * License:				GPL v2 or later
@@ -120,12 +120,12 @@ final class Plugin {
 		 * @since 0.9
 		 * @var $plugin
 		 */
-		$this->plugin					= get_plugin_data( DUPLICA );
+		$this->plugin					= get_plugin_data( DUPLICA, true, false );
 		$this->plugin['basename']		= plugin_basename( DUPLICA );
 		$this->plugin['file']			= DUPLICA;
 		$this->plugin['server']			= apply_filters( 'duplica_server', 'https://my.pluggable.io' );
 		$this->plugin['min_php']		= '7.4';
-		$this->plugin['min_wp']			= '5.0';
+		$this->plugin['min_wp']			= '6.0';
 	}
 
 	/**
@@ -184,7 +184,7 @@ final class Plugin {
 			 * 
 			 * @author Pluggable <hi@pluggable.io>
 			 */
-			$deactivator = new Deactivator( DUPLICA );
+			$deactivator = new Deactivator( $this->plugin );
 
 			/**
 			 * Alters featured plugins
@@ -193,7 +193,7 @@ final class Plugin {
 			 * 
 			 * @author Pluggable <hi@pluggable.io>
 			 */
-			$feature = new Feature( DUPLICA );
+			$feature = new Feature( $this->plugin, [ 'reversed' => [] ] );
 
 			/**
 			 * Asks to participate in a survey
@@ -202,7 +202,7 @@ final class Plugin {
 			 * 
 			 * @author Pluggable <hi@pluggable.io>
 			 */
-			$survey = new Survey( DUPLICA );
+			$survey = new Survey( $this->plugin );
 
 		else : // ! is_admin() ?
 

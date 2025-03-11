@@ -3,9 +3,9 @@ Contributors: codexpert, pluggable, mukto90
 Donate link: https://codexpert.io
 Tags: clone, duplicate, duplicate posts, duplicate post types, duplicate users
 Requires at least: 4.4
-Tested up to: 6.7
-Stable tag: 0.9.1
-Requires PHP: 7.0
+Tested up to: 6.7.2
+Stable tag: 0.10
+Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -33,6 +33,10 @@ For more, [https://pluggable.io/plugin/duplica](https://pluggable.io/plugin/dupl
 
 Discover our wide range of plugins and extensions that might be just what you're looking for. Check out our other plugins here:
 
+#### [🔥 EasyCommerce](https://easycommerce.dev)
+
+EasyCommerce is a WordPress plugin that transforms your website into a full-featured e-commerce platform. It offers intuitive product and order management, a drag-and-drop builder for easy store customization, and supports various payment gateways like PayPal and Stripe. Features include abandoned cart recovery, flexible shipping options, and coupon management. Compatible with popular themes, EasyCommerce provides a seamless, secure, and scalable solution for online retailers. 
+
 #### [🔥 CoDesigner](https://wordpress.org/plugins/woolementor/)
 
 Crafting stunning WooCommerce sites with Elementor has never been easy!  CoDesigner (formerly WooLementor) makes it easy to design beautiful WooCommerce sites with Elementor, even without coding. Its intuitive drag-and-drop interface allows you to customize shop pages, filters, checkout, and more, quickly achieving a professional look. With 94+ widgets, 14+ modules, and 150+ templates, CoDesigner lets you tailor your site to increase engagement, conversions, and customer retention. Its features include AJAX-based filters, customizable email templates, variation swatches, flash sale timers, and a streamlined checkout. Compatible with top WordPress themes, CoDesigner offers comprehensive support and tools to elevate your WooCommerce store.
@@ -44,14 +48,6 @@ Meet ThumbPress, the ultimate WordPress image management solution! Effortlessly 
 #### [🔥 WC Affiliate](https://wordpress.org/plugins/wc-affiliate/)
 
 Looking to launch an affiliate program for your WooCommerce store? WC Affiliate is the perfect solution to get started without a developer! This plugin is designed to seamlessly integrate with WooCommerce, offering features like referral tracking, real-time reporting, unlimited affiliates, and automated payouts through PayPal and Stripe. Customize commissions, build banners, create short links, and enable cross-domain cookie sharing for maximum reach. Translation-ready and user-friendly, WC Affiliate provides a fully customizable dashboard and exportable data. Experience its full potential with a live demo and join a community of users to boost your sales growth!
-
-#### [🔥 Restrict Elementor Widgets](https://wordpress.org/plugins/restrict-elementor-widgets/)
-
-Meet Restrict Elementor Widgets, the Elementor add-on that allows you to control when and where Elementor widgets or sections are displayed based on various conditions. You can choose to show or hide widgets for logged-in or logged-out users, specific user roles, or even certain user IDs. Schedule content for specific dates, times, or based on URL query strings, perfect for targeted displays like affiliate content. For WooCommerce users, you can set visibility based on customer roles, products, or subscription statuses (PRO). Customize restricted content by showing a message, a template, or hiding it entirely.
-
-#### [🔥 Duplica](https://wordpress.org/plugins/duplica/)
-
-Duplica lets you duplicate posts, pages, or custom posts to the same or different types, including posts, pages, WooCommerce products, and EDD downloads, with more options coming soon. It copies all post meta data and taxonomy terms as well. Starting with version 0.2, you can also duplicate users along with their data, metadata, and roles.
 
 #### [🔥 CF7 Submissions](https://wordpress.org/plugins/cf7-submissions/)
 
@@ -86,6 +82,9 @@ You can set this from the settings screen. It can be inherited from the original
 3. Settings screen
 
 == Changelog ==
+
+= v0.10 — 2024-03-11 =
+- Compatibility tested with WordPress v6.7.2
 
 = v0.9.1 — 2024-11-28 =
 - Compatibility tested with WordPress v6.7.1
