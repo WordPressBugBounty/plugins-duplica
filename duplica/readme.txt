@@ -2,9 +2,9 @@
 Contributors: codexpert, pluggable, mukto90
 Donate link: https://codexpert.io
 Tags: clone, duplicate, duplicate posts, duplicate post types, duplicate users
-Requires at least: 4.4
-Tested up to: 6.7.2
-Stable tag: 0.10
+Requires at least: 6.0
+Tested up to: 6.8
+Stable tag: 0.11
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -83,10 +83,13 @@ You can set this from the settings screen. It can be inherited from the original
 
 == Changelog ==
 
-= v0.10 — 2024-03-11 =
+= v0.11 — 2025-04-10 =
+- Compatibility tested with WordPress v6.8
+
+= v0.10 — 2025-03-11 =
 - Compatibility tested with WordPress v6.7.2
 
-= v0.9.1 — 2024-11-28 =
+= v0.9.1 — 2025-11-28 =
 - Compatibility tested with WordPress v6.7.1
 
 = v0.9 — 2024-11-13 =

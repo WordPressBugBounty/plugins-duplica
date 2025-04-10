@@ -15,7 +15,7 @@
     position: absolute;
 }
 .duplica-duplicate ul {
-	display: none;
+    display: none;
     background: #f6f7f7;
     width: 120px;
     margin-top: -3px;
@@ -25,14 +25,23 @@
     margin-bottom: 0;
 }
 .duplica-duplicate a:hover + ul, .duplica-duplicate ul:hover {
-	display: block;
+    display: block;
 }
 .row-actions .duplica .duplica-duplicate {
-	display: inherit;
-	position: relative;
+    display: inherit;
+    position: relative;
 }
 .row-actions .duplica .duplica-duplicate ul {
-	position: absolute;
-	left: 0;
-	background: #f6f7f7;
+    position: absolute;
+    left: 0;
+    background: #f6f7f7;
+}
+
+/* EasyCommerce Promo */
+.duplica .cx-wrapper.cx-sections-1 {
+    grid-template-columns: 5fr 1fr;
+    padding-bottom: 0;
+}
+.duplica #easycommerce-promo {
+    margin-bottom: -4px;
 }

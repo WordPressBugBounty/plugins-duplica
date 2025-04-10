@@ -142,4 +142,41 @@ class Admin extends Base {
 			<img id="duplica-modal-loader" src="'. esc_attr( DUPLICA_ASSET . '/img/loader.gif' ) .'" />
 		</div>';
 	}
+
+	public function show_admin_notices() {
+		if( false !== get_option( 'duplica_settings_init' ) ) return;
+
+		if( 'toplevel_page_duplica' == get_current_screen()->base ) {
+			update_option( 'duplica_settings_init', 1 );
+		}
+		else {
+			printf(
+				'<div class="notice notice-warning is-dismissible duplica-notice"><p>%s</p></div>',
+				sprintf(
+					/* Translators: %s is the link to the setup wizard */
+					__( 'Congratulations on installing <strong>Duplica</strong>!🎉 You\'re just a few steps away from configuring the plugin. <a href="%s"><strong>Click here</strong></a> to get started! 🚀', 'duplica' ),
+					esc_url( admin_url( 'admin.php?page=duplica' ) )
+				)
+			);
+
+			echo "<style>.duplica-notice { background-color: #5be8ff52;} .duplica-notice p {font-size: 14px;}</style>";
+		}
+	}
+
+	public function add_body_class( $classes ) {
+		$classes .= ' duplica';
+		return $classes;
+	}
+
+	public function show_easycommerce_promo( $config ) {
+
+		$banners = array( 'purple-left-party' );
+		$banner = $banners[ array_rand( $banners ) ];
+
+		printf(
+			'<div id="easycommerce-promo"><a href="%1$s" target="_blank"><img src="%2$s" /></a></div>',
+			add_query_arg( [ 'utm_source' => 'in-plugin', 'utm_medium' => 'duplica', 'utm_campaign' => "banner_{$banner}" ], 'https://easycommerce.dev' ),
+			"https://cdn.easycommerce.dev/images/promo/{$banner}.png"
+		);
+	}
 }

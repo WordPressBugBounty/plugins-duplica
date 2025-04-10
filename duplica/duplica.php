@@ -3,8 +3,8 @@
  * Plugin Name:			Duplica
  * Plugin URI:			https://pluggable.io/plugin/duplica
  * Description:			Duplicate Posts, Pages, Custom Posts or Users - everything with a single click.
- * Version:				0.10
- * Requires at least:	4.6
+ * Version:				0.11
+ * Requires at least:	6.0
  * Requires PHP:		7.4
  * Author:				Codexpert, Inc
  * Author URI:			https://codexpert.io
@@ -161,6 +161,9 @@ final class Plugin {
 			$admin->filter( "plugin_action_links", 'plugin_duplicate_menu', 10, 2 );
 			$admin->filter( 'plugin_row_meta', 'plugin_row_meta', 10, 2 );
 			$admin->action( 'admin_footer_text', 'footer_text' );
+			$admin->filter( 'admin_notices', 'show_admin_notices' );
+			$admin->filter( 'admin_body_class', 'add_body_class' );
+			$admin->action( 'cx-settings-sidebar', 'show_easycommerce_promo' );
 
 			/**
 			 * Settings related hooks
