@@ -4,7 +4,7 @@ Donate link: https://codexpert.io
 Tags: clone, duplicate, duplicate posts, duplicate post types, duplicate users
 Requires at least: 6.0
 Tested up to: 6.8
-Stable tag: 0.11
+Stable tag: 0.12
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -82,6 +82,9 @@ You can set this from the settings screen. It can be inherited from the original
 3. Settings screen
 
 == Changelog ==
+
+= v0.12 — 2025-04-17 =
+- Code optimized
 
 = v0.11 — 2025-04-10 =
 - Compatibility tested with WordPress v6.8
