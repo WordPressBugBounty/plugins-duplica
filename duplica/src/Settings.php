@@ -28,6 +28,10 @@ class Settings extends Base {
 	
 	public function init_menu() {
 		
+		if( ! function_exists( 'duplica_post_types' ) ) {
+			include_once DUPLICA_DIR . '/inc/functions.php';
+		}
+		
 		$settings = [
 			'id'            => $this->slug,
 			'label'         => $this->name,
