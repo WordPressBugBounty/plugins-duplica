@@ -3,7 +3,7 @@
  * Plugin Name:			Duplica
  * Plugin URI:			https://pluggable.io/plugin/duplica
  * Description:			Duplicate Posts, Pages, Custom Posts or Users - everything with a single click.
- * Version:				0.15
+ * Version:				0.16
  * Requires at least:	6.0
  * Requires PHP:		7.4
  * Author:				Codexpert, Inc
@@ -200,7 +200,7 @@ final class Plugin {
 			 * 
 			 * @author Pluggable <hi@pluggable.io>
 			 */
-			$feature = new Feature( $this->plugin, [ 'reserved' => [] ] );
+			// $feature = new Feature( $this->plugin, [ 'reserved' => [] ] );
 
 			/**
 			 * Asks to participate in a survey

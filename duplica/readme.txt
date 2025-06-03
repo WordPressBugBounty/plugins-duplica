@@ -4,7 +4,7 @@ Donate link: https://codexpert.io
 Tags: clone, duplicate, duplicate posts, duplicate post types, duplicate users
 Requires at least: 6.0
 Tested up to: 6.8.1
-Stable tag: 0.15
+Stable tag: 0.16
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -83,7 +83,7 @@ You can set this from the settings screen. It can be inherited from the original
 
 == Changelog ==
 
-= v0.15 - 2025-06-02 =
+= v0.16 - 2025-06-03 =
 - [fix] Plugin search issue fixed
 
 = v0.14 — 2025-05-11 =
